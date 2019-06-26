@@ -6,7 +6,6 @@ The booking-business-cloud-native-service is the application that consumes the m
 
 @Configuration
 @PropertySource("classpath:config/config.properties")
-
 public class RestTemplateConfig {
 
     @LoadBalanced
